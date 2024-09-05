@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO</title>
+</head>
+<body>
+    <header>
+        <h1>registro de clientes - autos de lujo</h1>
+    </header>
+    <main>
+        <h2>formulario de registro</h2>
+
+        <form>
+            <fieldset>
+                <legend>datos personales</legend>
+
+                <label for="nombre">nombre y apellida*</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">correo electronico*</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="fecha_nacimiento">fecha de Nacimiento</label>
+                <input type="date" id="fecha_nacimiento" name="fecha_nacimiento">
+
+                <label for="dni">DNI</label>
+                <input type="text" id="dni" name="dni" required>
+
+                <label for="telefono">telefono</label>
+                <input type="tel" id="telefono" name="telefono">
+
+                <label for="usuario_x">usuario de X</label>
+                <input type="text" id="usuario_x" name="usuario_x">
+
+                <label for="instagram">usuario de instagram</label>
+                <input type="text" id="instagram" name="instagram">
+            </fieldset>
+            <fieldset>
+                <legend>ubicacion</legend>
+
+                <label for="ciudad">ciudad</label>
+                <input type="text" id="ciudad" name="ciudad">
+
+                <label for="provincia">provincia</label>
+                <input type="text" id="provincia" name="provincia">
+            </fieldset>
+            <fieldset>
+                <legend>preferencias de autos</legend>
+
+                <label for="autos">¿que auto de lujo prefieres?</label>
+                <select id="autos" name="autos">
+                    <option value="lamborghini_huracan">lamborghini huracan</option>
+                    <option value="ferrari_testarossa">ferrari testarossa</option>
+                    <option value="porsche_cayenne">porsche cayenne</option>
+                    <option value="porsche_911">porsche 911</option>
+                </select>
+            </fieldset>
+            <input type="submit" value="registrarse">
+        </form>
+    </main>
+</body>
+
+</html>
